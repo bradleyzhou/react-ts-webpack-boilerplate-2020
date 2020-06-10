@@ -2,7 +2,7 @@ import { combineReducers, Action } from 'redux';
 import { configureStore, getDefaultMiddleware } from '@reduxjs/toolkit';
 import { ThunkAction } from 'redux-thunk';
 
-import { reducer as helloReducer } from '../pages/Hello/store';
+import { reducer as helloReducer } from '@/pages/Hello/store';
 
 const rootReducer = combineReducers({
   hello: helloReducer,

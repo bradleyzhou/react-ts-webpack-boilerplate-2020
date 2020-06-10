@@ -1,5 +1,5 @@
 import { produce } from 'immer';
-import { IActionTypes } from '../../store/actions';
+import { IActionTypes } from '@/store/actions';
 
 export const HELLO = 'app/hello/hello';
 

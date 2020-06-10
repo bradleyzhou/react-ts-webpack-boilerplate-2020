@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Dispatch } from 'redux';
 import { connect, ConnectedProps } from 'react-redux';
-import { Page } from '../../components/Page';
+import { Page } from '@/components/Page';
 
 import { greet, IHelloAction } from './store';
 import { RootState } from '@/store';
